@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+body{
+    background-color: black;
+    /* width: 100%; */
+    margin: 0;
+}
+.navbar{
+    background-color: #1C1D39;
+    max-width: 100%;
+    min-height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.navbar .name{
+    width: 50%;
+    
+}
+.name ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    list-style:none;
+    padding: 2%;
+
+}
+.name2{
+    width: 50%;
+    padding-left: 14%;
+}
+.name2 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    list-style: none;
+    justify-content: flex-start;
+
+}
+.name2  ul li button{
+    margin-right: 20px;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+
+}
+.name2 ul li .webbutton{
+
+    border: 1px solid rgb(97, 204, 97);
+    background-color: #1C1D39;
+    color: white;
+    padding: 3px 5px 3px 5px;
+}
+.name2 ul li .conbutton{
+
+    border: 1px solid rgb(97, 204, 97);
+    background-color: rgb(97, 204, 97);
+    color: white;
+    padding: 3px 5px 3px 5px;
+}
+.mainsection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.colour{
+    color: rgb(91, 212, 91);
+}
+.mainsection .left{
+    width: 40%;
+    height: 400px;
+    /* background-color: white; */
+    margin:2.5%;
+    padding-left:3%;
+    padding-right: 3%;
+}
+.mainsection .left h4{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+.mainsection .left .inner p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: white;
+}
+.mainsection .left .inner {
+    margin-bottom: 15px;
+}
+.mainsection .left .leftbtns{
+    display: flex;
+}
+.mainsection .left .leftbtns button{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1C1D39;
+    color: white;
+    padding:1% 3% 2% 2%;
+    border: 0px solid #1C1D39;
+}
+.mainsection .left .leftbtns button h5{
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+.mainsection .left .leftbtns button p{
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(66, 219, 66);
+}
+.mainsection .left .leftbtns  .btn1{
+    margin-right: 2%;
+    /* border-top-left-radius: 5px; */
+}
+.mainsection .right{
+    width: 40%;
+    height: 400px;
+    /* background-color: white; */
+    margin: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.mainsection .right .upper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+    align-items: flex-start;
+    z-index: 3;
+}
+.mainsection .right .upper button{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1C1D39;
+    color: white;
+    padding:1% 3% 2% 2%;
+    border: 0px solid #1C1D39;
+    
+}
+.mainsection .right .upper button h5{
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+.mainsection .right .upper button p{
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(66, 219, 66);
+}
+.mainsection .right .upper  .btn1{
+    margin-right: 2%;
+    border-top-left-radius: 5px;
+}
+.mainsection .right .upper  .btn2{
+    border-top-right-radius: 5px;
+}
+.mainsection .right .lower{
+    background-color: #1C1D39;
+    color: white;
+    padding: 2% 5% 4% 4%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.mainsection .right .lower p{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.mainsection .right .lower .card{
+    display: flex;
+    flex-direction: column;
+}
+.mainsection .right .lower .card span{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.mainsection .right .lower .card span .filled{
+    width: 100%;
+    height: 20px;
+    padding: 0%;
+    
+    border-radius: 15px;
+    border: 0px solid #1C1D39;
+}
+.mainsection .right .lower .card span .filled .first{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(77, 217, 77);
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: center; */
+    border-top-left-radius:  15px;
+    border-bottom-left-radius:  15px;
+}
+.mainsection .right .lower .card .stake{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    background-color: gray;
+    color: white;
+    border:0;
+    padding: 0;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.mainsection .right .lower .card .stake .input{
+    min-width: 85%;
+    height: 100%;
+    background-color: gray;
+    color: white;
+    border: 0;
+}
+.mainsection .right .lower .card .stake .max{
+    min-width: 15%;
+    background-color: white;
+    color: black;
+    border: 0;
+    height: 100%;
+    text-align: center;
+    padding-top: 8px;
+}
+.mainsection .right .lower .card .stake .input input{
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: 0;
+    padding: 5px;
+    outline: none;
+    background-color: gray;
+}
+.mainsection .right .lower .card .stake .input :-ms-input-placeholder{
+   color: white;
+}
+.mainsection .right .lower .card  .twobtn{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.mainsection .right .lower .card  .twobtn .button1{
+    min-width: 47%;
+    text-align: center;
+    height: 25px;
+    color:black;
+
+}
+.mainsection .right .lower .card  .twobtn .button2{
+    min-width: 47%;
+    text-align: center;
+    height: 25px;
+    color:black;
+
+}
+.mainsection .right .lower .card span .emergency{
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    padding: 5px 0px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
